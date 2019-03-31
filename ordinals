@@ -6,11 +6,11 @@ def divide_by_10(inputted_value)
 
 if inputted_value / 10 == 1 
   puts "the suffix should be st"
-else if inputted_value / 10 == 2
+elsif inputted_value / 10 == 2
   puts "the suffix should be nd"
-else if inputted_value / 10 == 3
+elsif inputted_value / 10 == 3
   puts "the suffix should be rd"
-else if inputted_value / 10 <= 11
+elsif inputted_value / 10 <= 11
   puts "the suffix should be th"
 end
 end
