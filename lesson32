@@ -1,0 +1,21 @@
+using array.uniq
+
+duplicates = ["1", "2", "3", "3", "4", "4". "5". "10", "11", "12" "42", "42"]
+
+def unique(["1", "2", "3", "3", "4", "4". "5". "10", "11", "12" "42", "42"])
+ return duplicates.uniq
+  
+end
+  
+using included? 
+
+numlist = ["1", "2", "3", "3", "4", "4". "5". "10", "11", "12" "42", "42"]
+repeats = [ "3", "4", "42"]
+
+numlist.each do |numlist| 
+  if repeats.include?(numlist)
+    puts "These are the repeats #{repeats}"
+    
+
+
+  
