@@ -16,3 +16,4 @@ puts "Enter a number"
 inputted_value = gets.to_i
 
 divide_by_10(inputted_value)
+#
