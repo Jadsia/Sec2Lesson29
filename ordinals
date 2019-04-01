@@ -1,16 +1,18 @@
-puts "Enter a number"
-  inputted_value = gets.to_i
-
 def divide_by_10(inputted_value)
   divide_by_10 = inputted_value / 10
 
-if inputted_value / 10 == 1 
-  puts "the suffix should be st"
-elsif inputted_value / 10 == 2
-  puts "the suffix should be nd"
-elsif inputted_value / 10 == 3
-  puts "the suffix should be rd"
-elsif inputted_value / 10 <= 11
-  puts "the suffix should be th"
+  if inputted_value / 10 == 1 
+    puts "the suffix should be st"
+  elsif inputted_value / 10 == 2
+    puts "the suffix should be nd"
+  elsif inputted_value / 10 == 3
+    puts "the suffix should be rd"
+  elsif inputted_value / 10 <= 11
+    puts "the suffix should be th"
+  end
 end
-end
+
+puts "Enter a number"
+inputted_value = gets.to_i
+
+divide_by_10(inputted_value)
