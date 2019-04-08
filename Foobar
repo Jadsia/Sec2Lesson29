@@ -1,0 +1,14 @@
+puts "How many items do you want to see?"
+items_seen = gets.to_i
+
+def foobar (number)
+  number = number +1
+
+  if number % 3 == 0
+    puts "Foo"
+  elsif number % 5 == 0
+    puts "Bar"
+  else
+    puts " #{number}"
+  end
+end
