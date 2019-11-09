@@ -20,5 +20,10 @@ These homework assignments include:
 
 *Ruby code that reads an array and identifies repeat numbers
 
+## Running the code
+
+Copy and past in to your favorite online editor, such as [CodeEnvy](https://codenvy.io/) or [Repl](https://repl.it/)
+
+
 
 
